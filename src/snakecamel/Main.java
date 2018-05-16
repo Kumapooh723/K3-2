@@ -4,6 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		SnakeCamelUtil SCU= new SnakeCamelUtil();
+		System.out.println(SCU.capitalize(""));
 		System.out.println(SCU.capitalize("a"));
 		System.out.println(SCU.capitalize("xyz"));
 		System.out.println(SCU.uncapitalize(""));
